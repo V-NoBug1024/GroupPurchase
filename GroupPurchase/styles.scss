@@ -1,0 +1,27 @@
+:global {
+    .group-purchase {
+        > h3 {
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30px;
+            margin-bottom: 10px;
+        }
+        .tabbar {
+            background-image: linear-gradient(90deg, #509bff 1%, #509bff 9%, #567dff 89%);
+            height: 30px;
+            display: flex;
+            border-radius: 0px 50px 50px 0px;
+            width: 70px;
+            align-items: center;
+            margin-top: 10px;
+            padding-left: 10px;
+        }
+        .tip-text {
+            margin-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+}
